@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7244853222938AE5006839CA /* CustomColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7244853122938AE5006839CA /* CustomColorViewController.swift */; };
 		724EA0E422926776004522AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EA0E322926776004522AE /* AppDelegate.swift */; };
-		724EA0E622926776004522AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EA0E522926776004522AE /* ViewController.swift */; };
+		724EA0E622926776004522AE /* ColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EA0E522926776004522AE /* ColorVC.swift */; };
 		724EA0E922926776004522AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724EA0E722926776004522AE /* Main.storyboard */; };
 		724EA0EB22926779004522AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724EA0EA22926779004522AE /* Assets.xcassets */; };
 		724EA0EE22926779004522AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724EA0EC22926779004522AE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7244853122938AE5006839CA /* CustomColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorViewController.swift; sourceTree = "<group>"; };
 		724EA0E022926776004522AE /* Color Delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Delegate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		724EA0E322926776004522AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		724EA0E522926776004522AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		724EA0E522926776004522AE /* ColorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorVC.swift; sourceTree = "<group>"; };
 		724EA0E822926776004522AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		724EA0EA22926779004522AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		724EA0ED22926779004522AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				724EA0E322926776004522AE /* AppDelegate.swift */,
-				724EA0E522926776004522AE /* ViewController.swift */,
+				724EA0E522926776004522AE /* ColorVC.swift */,
 				724EA0E722926776004522AE /* Main.storyboard */,
 				724EA0EA22926779004522AE /* Assets.xcassets */,
 				724EA0EC22926779004522AE /* LaunchScreen.storyboard */,
 				724EA0EF22926779004522AE /* Info.plist */,
+				7244853122938AE5006839CA /* CustomColorViewController.swift */,
 			);
 			path = "Color Delegate";
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				724EA0E622926776004522AE /* ViewController.swift in Sources */,
+				7244853222938AE5006839CA /* CustomColorViewController.swift in Sources */,
+				724EA0E622926776004522AE /* ColorVC.swift in Sources */,
 				724EA0E422926776004522AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
